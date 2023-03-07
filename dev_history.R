@@ -1,5 +1,4 @@
 library(devtools)
-library(testthat)
 
 # use_build_ignore("dev_history.R")
 
@@ -8,6 +7,8 @@ library(testthat)
 # use_readme_rmd()
 
 # use_git()
+
+# use_r("fun_bioc")
 
 
 ####
