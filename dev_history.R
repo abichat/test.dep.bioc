@@ -10,6 +10,8 @@ library(devtools)
 
 # use_r("fun_bioc")
 
+# use_github_action_check_standard()
+
 
 ####
 
