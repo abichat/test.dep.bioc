@@ -76,3 +76,9 @@ dependencies with GitHub Actions.
       ℹ Maybe you need to add a `<packagename>=` prefix?
 
 - Can be installed with `install_github()`.
+
+**Remotes with bioc::limma style**
+
+- Pass GitHub Actions.
+
+- Can be installed with `install_github()`.

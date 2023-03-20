@@ -91,3 +91,10 @@ Error:
 ```
 
 * Can be installed with `install_github()`.
+
+
+**Remotes with bioc::limma style**
+
+* Pass GitHub Actions.
+
+* Can be installed with `install_github()`.
