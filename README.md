@@ -48,3 +48,13 @@ dependencies with GitHub Actions.
 - Can be installed with `install_github()`.
 
 ### With `affy` (recursive bioconductor on `Biobase`)
+
+**No Remotes field**
+
+- Pass GitHub Actions.
+
+- Can’t be installed with `install_github()`:
+
+<!-- -->
+
+    dependencies ‘affy’, ‘limma’ are not available for package ‘test.dep.bioc’

@@ -11,6 +11,9 @@ Imports:
     affy,
     limma,
     stats
+Remotes:
+    bioc::release/affy,
+    bioc::release/limma
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
