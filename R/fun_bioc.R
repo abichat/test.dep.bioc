@@ -17,3 +17,19 @@ fun_bioc <- function() {
 
   camera(y, index1, design)
 }
+
+
+#' Test function
+#'
+#' @param x Numeric
+#'
+#' @return A numeric
+#' @export
+#'
+#' @importFrom affy hlog
+#'
+#' @examples
+#' fun_bioc_rec(1)
+fun_bioc_rec <- function(x) {
+  hlog(x)
+}

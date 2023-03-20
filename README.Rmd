@@ -25,6 +25,8 @@ remotes::install_github("abichat/test.dep.bioc")
 
 ## Configurations tested
 
+### With `limma` (no recursive bioconductor dependencies)
+
 **No Remotes field**
 
 * Pass GitHub Actions.
@@ -58,3 +60,6 @@ Error:
 * Pass GitHub Actions.
 
 * Can be installed with `install_github()`.
+
+
+### With `affy` (recursive bioconductor on `Biobase`)

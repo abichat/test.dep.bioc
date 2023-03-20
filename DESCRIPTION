@@ -8,10 +8,9 @@ Description: More about what it does (maybe more than one line) Use four
     spaces when indenting paragraphs within the Description.
 License: MIT + file LICENSE
 Imports: 
+    affy,
     limma,
     stats
-Remotes:
-    bioc::limma
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3

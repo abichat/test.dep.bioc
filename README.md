@@ -12,6 +12,8 @@ dependencies with GitHub Actions.
 
 ## Configurations tested
 
+### With `limma` (no recursive bioconductor dependencies)
+
 **No Remotes field**
 
 - Pass GitHub Actions.
@@ -44,3 +46,5 @@ dependencies with GitHub Actions.
 - Pass GitHub Actions.
 
 - Can be installed with `install_github()`.
+
+### With `affy` (recursive bioconductor on `Biobase`)
