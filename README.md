@@ -6,6 +6,12 @@
 The goal of **test.dep.bioc** is to test installation of Bioconductor
 dependencies with GitHub Actions.
 
+## Installation
+
+    remotes::install_github("abichat/test.dep.bioc")
+
+## Configurations tested
+
 **No Remotes field**
 
 - Pass GitHub Actions.
@@ -30,5 +36,11 @@ dependencies with GitHub Actions.
       Caused by error: 
       ! Cannot determine package name for 1 package: "bioc::release/limma".
       ℹ Maybe you need to add a `<packagename>=` prefix?
+
+- Can be installed with `install_github()`.
+
+**Remotes with bioc::limma**
+
+- Pass GitHub Actions.
 
 - Can be installed with `install_github()`.
