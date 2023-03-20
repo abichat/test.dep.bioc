@@ -24,7 +24,7 @@ dependencies with GitHub Actions.
 
     dependency ‘limma’ is not available for package ‘test.dep.bioc’
 
-**Remotes with bioc::release/limma**
+**Remotes with bioc::release/limma style**
 
 - GitHub Action failed:
 
@@ -41,7 +41,7 @@ dependencies with GitHub Actions.
 
 - Can be installed with `install_github()`.
 
-**Remotes with bioc::limma**
+**Remotes with bioc::limma style**
 
 - Pass GitHub Actions.
 
@@ -58,3 +58,21 @@ dependencies with GitHub Actions.
 <!-- -->
 
     dependencies ‘affy’, ‘limma’ are not available for package ‘test.dep.bioc’
+
+**Remotes with bioc::release/limma style**
+
+- GitHub Action failed:
+
+<!-- -->
+
+    Error: 
+      ! error in pak subprocess
+      Caused by error: 
+      ! Could not solve package dependencies:
+      * deps::.: ! pkgdepends resolution error for deps::..
+      Caused by error: 
+      ! Cannot determine package names for 2 packages: "bioc::release/affy" and
+      "bioc::release/limma".
+      ℹ Maybe you need to add a `<packagename>=` prefix?
+
+- Can be installed with `install_github()`.
