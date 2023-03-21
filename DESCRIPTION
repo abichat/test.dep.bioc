@@ -14,7 +14,6 @@ Imports:
     stats
 Remotes:
     bioc::affy,
-    bioc::Biobase,
     bioc::limma
 Encoding: UTF-8
 LazyData: true

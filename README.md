@@ -85,4 +85,29 @@ dependencies with GitHub Actions.
 
 ### With `affy` (recursive bioconductor dependency on `Biobase`) and `Biobase`
 
-**Remotes with bioc::limma style**
+**All Bioconductor Imports in Remotes with bioc::limma style**
+
+    Remotes:
+        bioc::affy,
+        bioc::Biobase,
+        bioc::limma
+
+- GitHub Action failed:
+
+<!-- -->
+
+    Error: 
+      ! error in pak subprocess
+      Caused by error: 
+      ! Could not solve package dependencies:
+      * deps::.: Can't install dependency bioc::affy
+      * bioc::affy: Can't install dependency Biobase (>= 2.5.5)
+
+- Can be installed with `install_github()`.
+
+**Only “terminal Imports Bioconductor dependencies” in Remotes with
+bioc::limma style**
+
+    Remotes:
+        bioc::affy,
+        bioc::limma
