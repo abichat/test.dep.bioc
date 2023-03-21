@@ -62,7 +62,7 @@ Error:
 * Can be installed with `install_github()`.
 
 
-### With `affy` (recursive bioconductor on `Biobase`)
+### With `affy` (recursive bioconductor dependency on `Biobase`)
 
 **No Remotes field**
 
@@ -98,3 +98,9 @@ Error:
 * Pass GitHub Actions.
 
 * Can be installed with `install_github()`.
+
+
+### With `affy` (recursive bioconductor dependency on `Biobase`) and `Biobase`
+
+
+**Remotes with bioc::limma style**

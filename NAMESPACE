@@ -2,6 +2,7 @@
 
 export(fun_bioc)
 export(fun_bioc_rec)
+importFrom(Biobase,listLen)
 importFrom(affy,hlog)
 importFrom(limma,camera)
 importFrom(stats,rnorm)

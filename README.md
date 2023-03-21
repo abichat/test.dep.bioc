@@ -47,7 +47,7 @@ dependencies with GitHub Actions.
 
 - Can be installed with `install_github()`.
 
-### With `affy` (recursive bioconductor on `Biobase`)
+### With `affy` (recursive bioconductor dependency on `Biobase`)
 
 **No Remotes field**
 
@@ -82,3 +82,7 @@ dependencies with GitHub Actions.
 - Pass GitHub Actions.
 
 - Can be installed with `install_github()`.
+
+### With `affy` (recursive bioconductor dependency on `Biobase`) and `Biobase`
+
+**Remotes with bioc::limma style**

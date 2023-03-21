@@ -26,10 +26,13 @@ fun_bioc <- function() {
 #' @return A numeric
 #' @export
 #'
+#' @importFrom Biobase listLen
 #' @importFrom affy hlog
 #'
 #' @examples
 #' fun_bioc_rec(1)
 fun_bioc_rec <- function(x) {
   hlog(x)
+  foo <- lapply(1:8, rnorm)
+  listLen(foo)
 }

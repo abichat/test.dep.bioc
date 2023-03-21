@@ -9,10 +9,12 @@ Description: More about what it does (maybe more than one line) Use four
 License: MIT + file LICENSE
 Imports: 
     affy,
+    Biobase,
     limma,
     stats
 Remotes:
     bioc::affy,
+    bioc::Biobase,
     bioc::limma
 Encoding: UTF-8
 LazyData: true
