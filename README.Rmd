@@ -37,7 +37,7 @@ remotes::install_github("abichat/test.dep.bioc")
 dependency ‘limma’ is not available for package ‘test.dep.bioc’
 ```
 
-**Remotes with bioc::release/limma style**
+**Remotes with `bioc::release/limma` style**
 
 * GitHub Action failed:
 
@@ -55,7 +55,7 @@ Error:
 * Can be installed with `install_github()`.
 
 
-**Remotes with bioc::limma style**
+**Remotes with `bioc::limma` style**
 
 * Pass GitHub Actions.
 
@@ -74,7 +74,7 @@ Error:
 dependencies ‘affy’, ‘limma’ are not available for package ‘test.dep.bioc’
 ```
 
-**Remotes with bioc::release/limma style**
+**Remotes with `bioc::release/limma` style**
 
 * GitHub Action failed:
 
@@ -93,7 +93,7 @@ Error:
 * Can be installed with `install_github()`.
 
 
-**Remotes with bioc::limma style**
+**Remotes with `bioc::limma` style**
 
 * Pass GitHub Actions.
 
@@ -103,7 +103,7 @@ Error:
 ### With `affy` (recursive bioconductor dependency on `Biobase`) and `Biobase`
 
 
-**All Bioconductor Imports in Remotes with bioc::limma style**
+**All Bioconductor Imports in Remotes with `bioc::limma` style**
 
 ```
 Remotes:
@@ -126,10 +126,14 @@ Error:
 * Can be installed with `install_github()`.
 
 
-**Only "terminal Imports Bioconductor dependencies" in Remotes with bioc::limma style**
+**Only "terminal Imports Bioconductor dependencies" in Remotes with `bioc::limma` style**
 
 ```
 Remotes:
     bioc::affy,
     bioc::limma
 ```
+
+* Pass GitHub Actions.
+
+* Can be installed with `install_github()`.

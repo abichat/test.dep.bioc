@@ -24,7 +24,7 @@ dependencies with GitHub Actions.
 
     dependency ‘limma’ is not available for package ‘test.dep.bioc’
 
-**Remotes with bioc::release/limma style**
+**Remotes with `bioc::release/limma` style**
 
 - GitHub Action failed:
 
@@ -41,7 +41,7 @@ dependencies with GitHub Actions.
 
 - Can be installed with `install_github()`.
 
-**Remotes with bioc::limma style**
+**Remotes with `bioc::limma` style**
 
 - Pass GitHub Actions.
 
@@ -59,7 +59,7 @@ dependencies with GitHub Actions.
 
     dependencies ‘affy’, ‘limma’ are not available for package ‘test.dep.bioc’
 
-**Remotes with bioc::release/limma style**
+**Remotes with `bioc::release/limma` style**
 
 - GitHub Action failed:
 
@@ -77,7 +77,7 @@ dependencies with GitHub Actions.
 
 - Can be installed with `install_github()`.
 
-**Remotes with bioc::limma style**
+**Remotes with `bioc::limma` style**
 
 - Pass GitHub Actions.
 
@@ -85,7 +85,7 @@ dependencies with GitHub Actions.
 
 ### With `affy` (recursive bioconductor dependency on `Biobase`) and `Biobase`
 
-**All Bioconductor Imports in Remotes with bioc::limma style**
+**All Bioconductor Imports in Remotes with `bioc::limma` style**
 
     Remotes:
         bioc::affy,
@@ -106,8 +106,12 @@ dependencies with GitHub Actions.
 - Can be installed with `install_github()`.
 
 **Only “terminal Imports Bioconductor dependencies” in Remotes with
-bioc::limma style**
+`bioc::limma` style**
 
     Remotes:
         bioc::affy,
         bioc::limma
+
+- Pass GitHub Actions.
+
+- Can be installed with `install_github()`.
